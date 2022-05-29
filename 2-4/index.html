@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>要素の追加</title>
+</head>
+
+<body>
+    <!-- 課題 -->
+    <input type="text" id="text1" placeholder="入力してください">
+    <input type="button" value="追加" onclick="addText();">
+    <input type="button" value="削除" onclick="deleteText();">
+    <br>
+    <textarea id="area1" cols="50" rows="8" placeholder="ここに出力されます"></textarea>
+
+    <!-- addEventListnerを使用する場合 -->
+    <br>
+    <input type="button" value="クリック" id="createBtn">
+    <ul>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <!-- クリックイベントを使用 -->
+    <input type="button" value="クリック" onclick="cB()">
+    <ul class="oc">
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
